@@ -1,0 +1,217 @@
+p{
+    font-size: 50px;
+    text-shadow: 2px 2px 3px rgb(235, 168, 156);
+}
+
+body{
+    background-color: rgb(125, 96, 203);
+    font-family:sans-serif;
+}
+marquee{
+    font-size: 50px;
+    color: rgb(174, 222, 135);
+    box-shadow: 2px 2 px tomato;
+}
+div{
+    width: 200px;
+    height: 200px ;
+    background-color: rgb(0, 255, 255);
+}
+.d1{
+    animation-name: exemple1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes exemple1{
+    
+    0%{ background-color: rgb(0, 255, 255);}
+    12.5%{ background-color: rgb(25, 237, 159);} 
+    25%{ background-color: rgb(25, 237, 50);} 
+    37.5%{ background-color: rgb(215, 229, 17);} 
+    50%{ background-color: rgb(245, 226, 128);} 
+    62.5%{ background-color: rgb(234, 244, 155);} 
+    75%{ background-color: rgb(171, 174, 86);} 
+    87.5% { background-color: rgb(132, 238, 100);} 
+    100%{ background-color: rgb(0, 255, 255);}
+}
+.d2{
+    position: relative;
+    animation-name: exemple2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+
+@keyframes exemple2{
+    
+    0%      { background-color: rgb(0, 255, 255);   left: 0px; top:0px ;}
+    12.5%   { background-color: rgb(25, 237, 159);  left: 200px; top:0px ;} 
+    25%     { background-color: rgb(25, 237, 50);   left: 200px; top:200px ;} 
+    37.5%   { background-color: rgb(215, 229, 17);  left: 0px; top:200px ;} 
+    50%     { background-color: rgb(245, 226, 128); left: 0px; top:0px ;} 
+    62.5%   { background-color: rgb(234, 244, 155); left: 200px; top:0px ;} 
+    75%     { background-color: rgb(171, 174, 86);  left: 200px; top:200px ;} 
+    87.5%   { background-color: rgb(132, 238, 100); left: 0px; top:200px ;} 
+    100%    { background-color: rgb(0, 255, 255);   left: 0px; top:0px ;}
+}
+
+.d3{
+    position: relative;
+    animation-name: exemple3;
+    animation-duration: 4s;
+    animation-delay: 2s ;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes exemple3{
+    
+    0%      { background-color: rgb(0, 255, 255);   left: 0px; top:0px ;}
+    12.5%   { background-color: rgb(25, 237, 159);  left: 200px; top:0px ;} 
+    25%     { background-color: rgb(25, 237, 50);   left: 200px; top:200px ;} 
+    37.5%   { background-color: rgb(215, 229, 17);  left: 0px; top:200px ;} 
+    50%     { background-color: rgb(245, 226, 128); left: 0px; top:0px ;} 
+    62.5%   { background-color: rgb(234, 244, 155); left: 200px; top:0px ;} 
+    75%     { background-color: rgb(171, 174, 86);  left: 200px; top:200px ;} 
+    87.5%   { background-color: rgb(132, 238, 100); left: 0px; top:200px ;} 
+    100%    { background-color: rgb(0, 255, 255);   left: 0px; top:0px ;}
+}
+
+.d4{
+    position: relative;
+    animation-name: exemple4;
+    animation-duration: 4s;
+    animation-delay: 3s ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   
+}
+
+@keyframes exemple4{
+    
+    0%      { background-color: rgb(0, 255, 255);   left: 0px; top:0px ;}
+    12.5%   { background-color: rgb(25, 237, 159);  left: 200px; top:0px ;} 
+    25%     { background-color: rgb(25, 237, 50);   left: 200px; top:200px ;} 
+    37.5%   { background-color: rgb(215, 229, 17);  left: 0px; top:200px ;} 
+    50%     { background-color: rgb(245, 226, 128); left: 0px; top:0px ;} 
+    62.5%   { background-color: rgb(234, 244, 155); left: 200px; top:0px ;} 
+    75%     { background-color: rgb(171, 174, 86);  left: 200px; top:200px ;} 
+    87.5%   { background-color: rgb(132, 238, 100); left: 0px; top:200px ;} 
+    100%    { background-color: rgb(0, 255, 255);   left: 0px; top:0px ;}
+}
+.d5{
+    position: relative;
+    animation-name: exemple5;
+    animation-duration: 4s;
+     animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+   
+   
+}
+
+@keyframes exemple5{
+    
+    from     { background-color: rgb(0, 255, 255);   left: 0px; top:0px ;}
+    to  { background-color: rgb(25, 237, 159);  left: 1000px; top:0px ;} 
+   
+}
+.d6{
+    position: relative;
+    animation-name: exemple6;
+    animation-duration: 4s;
+     animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    color: rgb(125, 96, 203);
+   
+   
+}
+
+@keyframes exemple6{
+    
+    from     { background-color: rgb(0, 255, 255);   left: 0px; top:0px ;}
+    to  { background-color: rgb(25, 237, 159);  left: 1000px; top:0px ;} 
+   
+}
+.d7{
+    position: relative;
+    animation-name: exemple7;
+    animation-duration: 4s;
+     animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    color: rgb(125, 96, 203);
+    
+   
+   
+}
+
+@keyframes exemple7{
+    
+    from     { background-color: rgb(0, 255, 255);   left: 0px; top:0px ;}
+    to  { background-color: rgb(25, 237, 159);  left: 1000px; top:0px ;} 
+   
+}
+.d8{
+    position: relative;
+    animation-name: exemple8;
+    animation-duration: 4s;
+     animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    color: rgb(125, 96, 203);
+   
+   
+}
+
+@keyframes exemple8{
+    
+    from     { background-color: rgb(0, 255, 255);   left: 0px; top:0px ;}
+    to  { background-color: rgb(25, 237, 159);  left: 1000px; top:0px ;} 
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loader .culkl {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #1f5c84, #3db1ff);
+    position: absolute;
+    right: 20px; 
+    transform: translate(-50%, -50%);
+    animation: pulse 2s ease-in-out infinite; 
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.7;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.8);
+        opacity: 0.7;
+    }
+}
+
